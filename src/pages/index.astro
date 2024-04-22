@@ -1,9 +1,33 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
 ---
 
 <Layout title="Porfolio">
-  <main>Portfolio</main>
-</Layout>
+  <main class="m-auto px-4 max-w-[45rem]">
+    <Navbar />
+    <div class="py-6">
+      <p>
+        Hello, I'm Camden. I'm a 24 year old software engineer. I like building
+        practical solutions to everyday problems. I enjoy trying out new
+        technologies and old ones alike, whatever fits the problem the best
+      </p>
+    </div>
 
-<style></style>
+    <div>
+      <h3>Projects</h3>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Blog posts</h3>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <div>FOOTER</div>
+  </main>
+</Layout>

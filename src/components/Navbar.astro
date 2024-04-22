@@ -1,0 +1,25 @@
+---
+import day from "./icons/day.svg";
+import night from "./icons/night.svg";
+---
+
+<div class="flex justify-between py-6">
+  <div class="font-bold">Camden Withrow</div>
+  <ul class="flex gap-3">
+    <li>
+      <button>projects</button>
+    </li>
+    <li>
+      <button>blog</button>
+    </li>
+    <li>
+      <button>resume</button>
+    </li>
+    <li class="flex justify-center items-center">
+      <button id="theme-button" class="w-8 h-4 pl-4">
+        <img id="light-theme" src={day.src} alt="light mode" />
+        <!-- <img id="dark-theme" src={night.src} alt="dark mode" /> -->
+      </button>
+    </li>
+  </ul>
+</div>
